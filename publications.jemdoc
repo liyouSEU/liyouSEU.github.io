@@ -3,6 +3,7 @@
 
 == Journal
 ==== Year 2023
+- \[J65\] L. Qiao, A. Liao, Z. Li, H. Wang, Z. Gao, X. Gao, Y. Su, P. Xiao, *L. You*, and D. W. K. Ng, “Sensing user's activity, channel, and location with near-field extra-large-scale MIMO,” */IEEE Transactions on Communications/*, 2023.
 - \[J64\] H. Deng, Z. Chang\*, *L. You*, G. Min, S. Garg, and G. Kaddoum, “Trajectory design and resource allocation for multi-UAV networks: Deep reinforcement learning approaches,” */IEEE Transactions on Network Science and Engineering/*, vol. 10, no. 5, pp. 2940-2951, Sep.-Oct. 2023. \[[https://ieeexplore.ieee.org/document/9767553 Full Paper]\]
 - \[J63\] B. Jiang, Y. Yan, J. Zhao, X. Xiao, *L. You\**, D. Zhang, J. Lei, K. Wang, W. Wang, and X. Gao, “Total and minimum energy efficiency tradeoff in robust multigroup multicast satellite communications,” */Space: Science & Technology/*, vol. 3, Article ID: 0059, Aug. 2023. \[[https://spj.science.org/doi/full/10.34133/space.0059 Full Paper]\]
 - \[J62\] S. Wu, G. Sun, Y. Wang, *L. You*, W. Wang\*, and R. Ding, “Low-complexity user scheduling for LEO satellite communications,” */IET Communications/*, vol. 17, pp. 1368-1383, Jul. 2023. \[[https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cmu2.12629 Full Paper]\]
@@ -81,14 +82,15 @@
 
 == Conference
 ==== Year 2023
-- \[C36\] C. Xie, and *L. You\**, “Deep learning aided beam prediction in dual-band multi-cell massive MIMO system,” in */Proc. URSI GASS 2023/*, Sapporo, Japan, Aug. 2023, 1-4. \[[https://ieeexplore.ieee.org/document/10265352 Full Paper]\]
-- \[C35\] X. Qiang, *L. You\**, Y. Zhu, F. Jiang, C. G. Tsinos, W. Wang, H. Wymeersch, and X. Q. Gao, “Hybrid precoding for integrated communications and localization in massive MIMO LEO satellite systems,” in */Proc. IEEE ICC 2023/*, Rome, Italy, May 2023, 1-6.
-- \[C34\] J. Tang, *L. You*, X. Gao, and X.-G. Xia, “Statistical CSI acquisition in multi-frequency communication systems,” in */Proc. IEEE WCNC 2023/*, Glasgow, United Kingdom (Great Britain), Mar. 2023, 1-6. \[[https://ieeexplore.ieee.org/abstract/document/10118598 Full Paper]\]
+- \[C37\] C. Xie, and *L. You\**, “Deep learning aided beam prediction in dual-band multi-cell massive MIMO system,” in */Proc. URSI GASS 2023/*, Sapporo, Japan, Aug. 2023, 1-4. \[[https://ieeexplore.ieee.org/document/10265352 Full Paper]\]
+- \[C36\] X. Qiang, *L. You\**, Y. Zhu, F. Jiang, C. G. Tsinos, W. Wang, H. Wymeersch, and X. Q. Gao, “Hybrid precoding for integrated communications and localization in massive MIMO LEO satellite systems,” in */Proc. IEEE ICC 2023/*, Rome, Italy, May 2023, 1-6.
+- \[C35\] J. Tang, *L. You*, X. Gao, and X.-G. Xia, “Statistical CSI acquisition in multi-frequency communication systems,” in */Proc. IEEE WCNC 2023/*, Glasgow, United Kingdom (Great Britain), Mar. 2023, 1-6. \[[https://ieeexplore.ieee.org/abstract/document/10118598 Full Paper]\]
 
 ==== Year 2022
-- \[C33\] H. Jiang, *L. You\**, J. Wang, W. Wang, and X. Gao, “EM exposure aware transmission design for hybrid RIS and DMA assisted multiuser MIMO uplink,” in */Proc. IEEE GLOBECOM 2022/*, Rio de Janeiro, Brazil, Dec. 2022, 1600-1605. \[[https://ieeexplore.ieee.org/document/10001589 Full Paper]\]
+- \[C34\] H. Jiang, *L. You\**, J. Wang, W. Wang, and X. Gao, “EM exposure aware transmission design for hybrid RIS and DMA assisted multiuser MIMO uplink,” in */Proc. IEEE GLOBECOM 2022/*, Rio de Janeiro, Brazil, Dec. 2022, 1600-1605. \[[https://ieeexplore.ieee.org/document/10001589 Full Paper]\]
+- \[C33\] H. Jiang, *Li You*, A. Elzanaty, J. Wang, W. Wang, X. Gao, and M.-S. Alouini, “Electromagnetic Exposure Aware RSMA for Multiuser Massive MIMO Uplink,” in */Proc. ICSPS 2022/*, Jiangsu, China, Nov. 2022, 634-639. \[[https://ieeexplore.ieee.org/document/10218551 Full Paper]\]
 - \[C32\] M. Qian, *L. You\**, W. Wang, and X. Gao, “Low-complexity multi-user MIMO uplink transmission assisted by dual-polarized reconfigurable intelligent surface,” in */Proc. IEEE ICCC 2022/*, Foshan City, China, Aug. 2022, 576-581. \[[https://ieeexplore.ieee.org/document/9880726 Full Paper]\]
-- \[C31\] Y. Ye, *L. You\**, “Energy efficiency optimization for radar-communication coexistence with statistical CSIT,” in */Proc. AT-AP-RASC 2022/*, Gran Canaria, Spain, Jun. 2022, 1-4. \[[https://ieeexplore.ieee.org/document/9814317 Full Paper]\]
+- \[C31\] Y. Ye, *L. You\**, “Energy efficiency optimization for radar-communication coexistence with statistical CSIT,” in */Proc. URSI AT-AP-RASC 2022/*, Gran Canaria, Spain, Jun. 2022, 1-4. \[[https://ieeexplore.ieee.org/document/9814317 Full Paper]\]
 - \[C30\] X. Qiang, *L. You*, C. G. Tsinos, W. Wang, X. Q. Gao, and B. Ottersten, “Joint communications-sensing for hybrid massive MIMO LEO satellite systems with beam squint,” in */Proc. IEEE ICC 2022/*, Seoul, South Korea, May 2022, 1-6. \[[https://ieeexplore.ieee.org/document/9814509 Full Paper]\]
 - \[C29\] Y. Zhu, G. Sun, W. Wang, *L. You*, F. Wei, L. Wang, and Y. Chen, “Massive grant-free receiver design for OFDM-based transmission over frequency-selective fading channels,” in */Proc. IEEE ICC 2022/*, Seoul, South Korea, May 2022, 1-6. \[[https://ieeexplore.ieee.org/document/9839286 Full Paper]\]
 
