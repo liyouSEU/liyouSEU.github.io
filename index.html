@@ -25,13 +25,9 @@
         transform: rotate(180deg);  
     }  
     .toggle-content {  
-        max-height: 0;  
-        overflow: hidden;  
-        transition: max-height 0.3s ease-out;  
-    }  
-    .expanded .toggle-content {  
-        max-height: 500px; /* 你可以根据需要调整这个值 */  
-    }  
+        display: none; /* 初始隐藏 */  
+            margin-top: 10px;  
+    }    
 </style>  
 <title>Li You</title>
 </head>
@@ -103,8 +99,12 @@ Email: lyou@seu.edu.cn <br />
     document.getElementById('toggleIcon').addEventListener('click', function() {  
         var content = document.getElementById('toggleContent');  
         var icon = document.getElementById('toggleIcon');  
-        content.classList.toggle('expanded');  
-        icon.classList.toggle('rotated');  
+        if (content.style.display === "none" || content.style.display === "") {  
+                content.style.display = "block";  
+                icon.classList.toggle('rotated'); 
+            } else {  
+                content.style.display = "none";  
+            }  
     });  
 </script>   
 <h2>About Me</h2>
