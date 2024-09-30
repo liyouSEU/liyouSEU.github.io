@@ -7,17 +7,6 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-    <style>   
-        #more-content {  
-            display: none;  
-            margin-top: 10px;  
-        }  
-        .toggle-button {  
-            cursor: pointer;  
-            padding: 5px;    
-            display: inline-block;  
-        }  
-    </style>  
 <title>Li You</title>
 </head>
 <body>
@@ -70,9 +59,8 @@ Email: lyou@seu.edu.cn <br />
 <li><p>[<span class="statement">2024.01</span>]  Hanyu Jiang received the Excellent Master Thesis Award from the China Institute of Communications (CIC) in 2023. (姜涵予的硕士学位论文入选“2023年度中国通信学会硕士学位论文激励计划”) <a href="https://www.china-cic.cn/Detail/24/5256/5256">[link]</a></p>
 </li>
 </p>   
-<div class="toggle-button" onclick="toggleContent()"> <p><li>View More Earlier News </p></li></div>   
+<div class="triangle"> <p><li>View More Earlier News </p></li></div>   
 <div id="more-content"> 
-  <div class="triangle"></div>
 <p>
 <li><p>[<span class="statement">2023.11</span>]  Li You was awarded the First Prize of Science and Technology Award of China Institute of Communications in Year 2023. (获2023年度中国通信学会科学技术奖一等奖) <a href="https://mp.weixin.qq.com/s/od2q0Vfp4DLuPGOcZ0F-Gw">[link]</a></p>
 </li>
@@ -84,22 +72,11 @@ Email: lyou@seu.edu.cn <br />
 </li>
 </ul></p>  
 </div>   
-    <script>    
-        function toggleContent() {  
-            var content = document.getElementById("more-content"); 
-            var triangle = document.querySelector(".triangle");       
-            if (content.style.display === "none" || content.style.display === "") {  
-                content.style.display = "block";  
-                document.querySelector(".toggle-button").textContent = "View More Earlier News";  
-            } else {  
-                content.style.display = "none";  
-                document.querySelector(".toggle-button").textContent = "View More Earlier News";  
-            }  
-        }  
-      triangle.addEventListener("click", function() {
+const content = document.getElementById("content");
+const triangle = document.querySelector(".triangle");
+triangle.addEventListener("click", function() {
   content.classList.toggle("open");
-});
-    </script>  
+}); 
 <h2>About Me</h2>
 <p>Li You (Senior Member, IEEE) received the B.E. and M.E. degrees from the Nanjing University of Aeronautics and Astronautics, Nanjing, China, in 2009 and 2012, respectively, and the Ph.D. degree from Southeast University, Nanjing, in 2016, all in electrical engineering.</p>
 <p>From 2014 to 2015, he has conducted a Visiting Research at the Center for Pervasive Communications and Computing, University of California Irvine, Irvine, CA, USA. Since 2016, he has been with the Faculty of the National Mobile Communications Research Laboratory, Southeast University. His research interests lie in the general areas of communications, signal processing, and information theory, with the current emphasis on massive MIMO and XL-MIMO communications.</p>
