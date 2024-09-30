@@ -7,16 +7,14 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-    <style>  
-        /* 添加一些简单的样式 */  
+    <style>   
         #more-content {  
-            display: none; /* 初始隐藏 */  
+            display: none;  
             margin-top: 10px;  
         }  
         .toggle-button {  
             cursor: pointer;  
-            padding: 10px;  
-            border: 1px solid #ccc;  
+            padding: 5px;    
             display: inline-block;  
         }  
     </style>  
@@ -56,32 +54,6 @@ Email: lyou@seu.edu.cn <br />
 <li><p>[<span class="statement">2024.07</span>]  Mengyu Qian's paper on holographic MIMO was accepted by IEEE Transactions on Wireless Communications. (潜梦羽的关于全息MIMO的论文被IEEE Transactions on Wireless Communications录用) <a href="https://ieeexplore.ieee.org/document/10612761">[link]</a></p>
 </li>
 <li><p>[<span class="statement">2024.05</span>]  Yan Huang's paper on satellite communications was accepted by Space: Science &amp; Technology. (黄彦的关于卫星通信的论文被Space: Science &amp; Technology录用) <a href="https://spj.science.org/doi/10.34133/space.0178">[link]</a></p>
-</li></p>   
-<div class="toggle-button" onclick="toggleContent()">点击展开更多</div>   
-<div id="more-content">  
-<p><li><p>[<span class="statement">2024.03</span>]  Our work on integrated communications and localization for massive MIMO LEO satellite systems was accepted by IEEE Transactions on Wireless Communications. (课题组关于大规模MIMO低轨卫星通信定位一体化传输的论文被IEEE Transactions on Wireless Communications录用) <a href="https://ieeexplore.ieee.org/document/10478820">[link]</a></p>
-</li>
-<li><p>[<span class="statement">2024.03</span>]  Xiang Xiao's paper on satellite communications was accepted by Science China Information Sciences. (肖翔的关于卫星通信的论文被Science China Information Sciences录用) <a href="https://link.springer.com/article/10.1007/s11432-023-3969-4?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=nonoa_20240528&amp;utm_content=10.1007%2Fs11432-023-3969-4">[link]</a></p>
-</li></p>  </div>   
-    <script>  
-        // JavaScript 函数来切换内容的显示状态  
-        function toggleContent() {  
-            var content = document.getElementById("more-content");  
-            if (content.style.display === "none" || content.style.display === "") {  
-                content.style.display = "block";  
-                document.querySelector(".toggle-button").textContent = "点击折叠";  
-            } else {  
-                content.style.display = "none";  
-                document.querySelector(".toggle-button").textContent = "点击展开更多";  
-            }  
-        }  
-    </script>  
-<ul>
-<li><p>[<span class="statement">2024.07</span>]  Five papers were accepted by IEEE GLOBECOM 2024. (课题组5篇论文被2024 IEEE GLOBECOM会议录用)</p>
-</li>
-<li><p>[<span class="statement">2024.07</span>]  Mengyu Qian's paper on holographic MIMO was accepted by IEEE Transactions on Wireless Communications. (潜梦羽的关于全息MIMO的论文被IEEE Transactions on Wireless Communications录用) <a href="https://ieeexplore.ieee.org/document/10612761">[link]</a></p>
-</li>
-<li><p>[<span class="statement">2024.05</span>]  Yan Huang's paper on satellite communications was accepted by Space: Science &amp; Technology. (黄彦的关于卫星通信的论文被Space: Science &amp; Technology录用) <a href="https://spj.science.org/doi/10.34133/space.0178">[link]</a></p>
 </li>
 <li><p>[<span class="statement">2024.04</span>]  Li You was appointed as the Associate Editor of IEEE Signal Processing Letters. (尤力担任IEEE Signal Processing Letters编委)</p>
 </li>
@@ -97,6 +69,10 @@ Email: lyou@seu.edu.cn <br />
 </li>
 <li><p>[<span class="statement">2024.01</span>]  Hanyu Jiang received the Excellent Master Thesis Award from the China Institute of Communications (CIC) in 2023. (姜涵予的硕士学位论文入选“2023年度中国通信学会硕士学位论文激励计划”) <a href="https://www.china-cic.cn/Detail/24/5256/5256">[link]</a></p>
 </li>
+</ul></p>   
+<div class="toggle-button" onclick="toggleContent()">View More Earlier News</div>   
+<div id="more-content"> 
+<p><ul>
 <li><p>[<span class="statement">2023.11</span>]  Li You was awarded the First Prize of Science and Technology Award of China Institute of Communications in Year 2023. (获2023年度中国通信学会科学技术奖一等奖) <a href="https://mp.weixin.qq.com/s/od2q0Vfp4DLuPGOcZ0F-Gw">[link]</a></p>
 </li>
 <li><p>[<span class="statement">2023.11</span>]  Yuqi Ye's paper on fluid antenna was accepted by IEEE Communications Letters. (叶育琦的关于流体天线的论文被IEEE Communications Letters录用) <a href="https://ieeexplore.ieee.org/document/10328751">[link]</a></p>
@@ -105,7 +81,20 @@ Email: lyou@seu.edu.cn <br />
 </li>
 <li><p>[<span class="statement">2023.08</span>]  Yuqi Ye and 5 other students won the second prize in the 18th China Graduate Electronic Design Competition National Finals. (叶育琦等6名同学获得第18届中国研究生电子设计竞赛全国总决赛二等奖) <a href="https://mp.weixin.qq.com/s/ih0IFUNk2buOt58cOqQJQQ">[link]</a></p>
 </li>
-</ul>
+</ul></p>  
+</div>   
+    <script>    
+        function toggleContent() {  
+            var content = document.getElementById("more-content");  
+            if (content.style.display === "none" || content.style.display === "") {  
+                content.style.display = "block";  
+                document.querySelector(".toggle-button").textContent = "View More Earlier News";  
+            } else {  
+                content.style.display = "none";  
+                document.querySelector(".toggle-button").textContent = "View More Earlier News";  
+            }  
+        }  
+    </script>  
 <h2>About Me</h2>
 <p>Li You (Senior Member, IEEE) received the B.E. and M.E. degrees from the Nanjing University of Aeronautics and Astronautics, Nanjing, China, in 2009 and 2012, respectively, and the Ph.D. degree from Southeast University, Nanjing, in 2016, all in electrical engineering.</p>
 <p>From 2014 to 2015, he has conducted a Visiting Research at the Center for Pervasive Communications and Computing, University of California Irvine, Irvine, CA, USA. Since 2016, he has been with the Faculty of the National Mobile Communications Research Laboratory, Southeast University. His research interests lie in the general areas of communications, signal processing, and information theory, with the current emphasis on massive MIMO and XL-MIMO communications.</p>
