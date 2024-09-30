@@ -7,12 +7,32 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-<style>   
-        #more-content {  
-            display: none;  
-            margin-top: 10px;  
-        }   
-    </style> 
+<style>  
+    .content-container {  
+        margin: 20px;  
+    }  
+    .toggle-icon {  
+        display: inline-block;  
+        width: 0;  
+        height: 0;  
+        border-left: 10px solid transparent;  
+        border-right: 10px solid transparent;  
+        border-bottom: 10px solid black;  
+        cursor: pointer;  
+        transition: transform 0.3s ease;  
+    }  
+    .toggle-icon.rotated {  
+        transform: rotate(180deg);  
+    }  
+    .toggle-content {  
+        max-height: 0;  
+        overflow: hidden;  
+        transition: max-height 0.3s ease-out;  
+    }  
+    .expanded .toggle-content {  
+        max-height: 500px; /* 你可以根据需要调整这个值 */  
+    }  
+</style>  
 <title>Li You</title>
 </head>
 <body>
@@ -63,11 +83,11 @@ Email: lyou@seu.edu.cn <br />
 <li><p>[<span class="statement">2024.01</span>]  Kelin Huang's paper on DMA was accepted by IEEE Wireless Communications Letters. (黄珂琳的关于动态超表面天线的论文被IEEE Wireless Communications Letters录用) <a href="https://ieeexplore.ieee.org/document/10415645">[link]</a></p>
 </li>
 <li><p>[<span class="statement">2024.01</span>]  Hanyu Jiang received the Excellent Master Thesis Award from the China Institute of Communications (CIC) in 2023. (姜涵予的硕士学位论文入选“2023年度中国通信学会硕士学位论文激励计划”) <a href="https://www.china-cic.cn/Detail/24/5256/5256">[link]</a></p>
-</li>
-</p>   
-<div class="triangle"> <p><li>View More Earlier News </p></li></div>   
-<div id="more-content"> 
-<p>
+</li>   
+<div class="content-container">  
+    <div class="toggle-icon" id="toggleIcon"></div>  
+    <div class="toggle-content" id="toggleContent">  
+    <p>
 <li><p>[<span class="statement">2023.11</span>]  Li You was awarded the First Prize of Science and Technology Award of China Institute of Communications in Year 2023. (获2023年度中国通信学会科学技术奖一等奖) <a href="https://mp.weixin.qq.com/s/od2q0Vfp4DLuPGOcZ0F-Gw">[link]</a></p>
 </li>
 <li><p>[<span class="statement">2023.11</span>]  Yuqi Ye's paper on fluid antenna was accepted by IEEE Communications Letters. (叶育琦的关于流体天线的论文被IEEE Communications Letters录用) <a href="https://ieeexplore.ieee.org/document/10328751">[link]</a></p>
@@ -75,16 +95,19 @@ Email: lyou@seu.edu.cn <br />
 <li><p>[<span class="statement">2023.11</span>]  Li You was listed in the 2023 Stanford's list of World Top 2% scientists. (尤力入选2023年度斯坦福全球前2%顶尖科学家) <a href="https://mp.weixin.qq.com/s/N5jBnNoLbPmm8a6eNJGszw">[link]</a></p>
 </li>
 <li><p>[<span class="statement">2023.08</span>]  Yuqi Ye and 5 other students won the second prize in the 18th China Graduate Electronic Design Competition National Finals. (叶育琦等6名同学获得第18届中国研究生电子设计竞赛全国总决赛二等奖) <a href="https://mp.weixin.qq.com/s/ih0IFUNk2buOt58cOqQJQQ">[link]</a></p>
-</li>
+</li></p>  
+    </div>  
+</div> 
 </ul></p>  
 </div>   
-  <script>  
-triangle.addEventListener("click", function() {
-  const content = document.getElementById("content");
-  const triangle = document.querySelector(".triangle");
-  content.classList.toggle("open");
-}); 
-  </script>  
+<script>  
+    document.getElementById('toggleIcon').addEventListener('click', function() {  
+        var content = document.getElementById('toggleContent');  
+        var icon = document.getElementById('toggleIcon');  
+        content.classList.toggle('expanded');  
+        icon.classList.toggle('rotated');  
+    });  
+</script>   
 <h2>About Me</h2>
 <p>Li You (Senior Member, IEEE) received the B.E. and M.E. degrees from the Nanjing University of Aeronautics and Astronautics, Nanjing, China, in 2009 and 2012, respectively, and the Ph.D. degree from Southeast University, Nanjing, in 2016, all in electrical engineering.</p>
 <p>From 2014 to 2015, he has conducted a Visiting Research at the Center for Pervasive Communications and Computing, University of California Irvine, Irvine, CA, USA. Since 2016, he has been with the Faculty of the National Mobile Communications Research Laboratory, Southeast University. His research interests lie in the general areas of communications, signal processing, and information theory, with the current emphasis on massive MIMO and XL-MIMO communications.</p>
