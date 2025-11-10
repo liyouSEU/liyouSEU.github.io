@@ -5,8 +5,8 @@ Research
     <div class="container mt-3">
         <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"> Publications </button>
         <div id="demo" class="collapse">
-          <p>Journal      [journal.html]</p>
-          <p>Conference   [conference.html]</p>
+          Journal      [journal.html]
+          Conference   [conference.html]
         </div>
     </div> 
     Patents      [patents.html]
