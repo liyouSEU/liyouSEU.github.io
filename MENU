@@ -3,9 +3,9 @@ Home
 
 Research
     <div class="container mt-3">
-        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"> Publications </button>
-        <div id="demo" class="collapse">
-          Journal      [journal.html]
+         <a href="#demo" class="btn btn-primary" data-bs-toggle="collapse">Publications</a>
+         <div id="demo" class="collapse">
+          Journal      [journal.html] <br />
           Conference   [conference.html]
         </div>
     </div> 
