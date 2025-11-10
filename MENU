@@ -2,7 +2,13 @@ Home
     About me            [index.html]
 
 Research
-    Publications   [#]   
+    <div class="container mt-3">
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"> <a href="#">Publications</a></button>
+        <div id="demo" class="collapse">
+        Journal      [journal.html]
+        Conference   [conference.html]
+        </div>
+    </div>
     Patents      [patents.html]
     Awards		[awards.html]
     Other       [other.html]
