@@ -5,10 +5,12 @@ Research
     <div class="container mt-3">
         <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"> <a href="#">Publications</a></button>
         <div id="demo" class="collapse">
-        Journal      [journal.html]
-        Conference   [conference.html]
+          <p><ul>
+          <li><p>Journal      [journal.html]</p></li>
+          <li><p>Conference   [conference.html]</p></li>
+          </ul></p>
         </div>
-    </div>
+    </div> 
     Patents      [patents.html]
     Awards		[awards.html]
     Other       [other.html]
