@@ -3,12 +3,10 @@ Home
 
 Research
     <div class="container mt-3">
-        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"> <a href="#">Publications</a></button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"> Publications </button>
         <div id="demo" class="collapse">
-          <p><ul>
-          <li><p>Journal      [journal.html]</p></li>
-          <li><p>Conference   [conference.html]</p></li>
-          </ul></p>
+          <p>Journal      [journal.html]</p>
+          <p>Conference   [conference.html]</p>
         </div>
     </div> 
     Patents      [patents.html]
