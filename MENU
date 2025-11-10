@@ -3,10 +3,10 @@ Home
 
 Research
     <div class="content-container">  
-    <div class="toggle-icon" id="toggleIcon"></div> Publications 
-    <div class="toggle-content" id="toggleContent">  
+    <div class="toggle-icon"></div> Publications 
+    <div class="toggle-content">  
     <p><ul>
-    Jpurnal  [journals.html]
+    Jpurnal  [journal.html]
     Conference  [conference.html]
     </ul></p>
     </div></div>     
