@@ -2,11 +2,13 @@ Home
     About me            [index.html]
 
 Research
+    Awards		[awards.html]
+    Patents      [patents.html]
     <div class="content-container">  
     <div class="toggle-icon" id="toggleIcon"></div> Publications 
     <div class="toggle-content" id="toggleContent">  
     Journal      [journal.html]
     Conference   [conference.html]   
-    Patents      [patents.html]
-    Awards		[awards.html]
+
     Other       [other.html]
+    
