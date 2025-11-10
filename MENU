@@ -5,8 +5,10 @@ Research
     <div class="container mt-3">
          <a href="#demo" class="btn btn-primary" data-bs-toggle="collapse">Publications</a>
          <div id="demo" class="collapse">
+          <p><ul>
           <li><p>Journal      [journal.html] </p></li>
           <li><p>Conference   [conference.html]</p></li>
+          </ul></p>
         </div>
     </div> 
     Patents      [patents.html]
