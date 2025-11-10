@@ -2,14 +2,7 @@ Home
     About me            [index.html]
 
 Research
-    <div class="content-container">  
-    <div class="toggle-icon"></div> Publications 
-    <div class="toggle-content">  
-    <p><ul>
-    Jpurnal  [journal.html]
-    Conference  [conference.html]
-    </ul></p>
-    </div></div>     
+    Publications   [#]   
     Patents      [patents.html]
     Awards		[awards.html]
     Other       [other.html]
