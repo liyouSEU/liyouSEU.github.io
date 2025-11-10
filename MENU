@@ -2,12 +2,13 @@ Home
     About me            [index.html]
 
 Research
-    <div class="content-container">  
-    <div class="toggle-icon" id="toggleIcon"></div> Publications 
-    <div class="toggle-content" id="toggleContent">  
-        Journal      [journal.html]
-        Conference   [conference.html]   
-    
+    <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"> Publications
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Journal      [journal.html]</a></li>
+      <li><a class="dropdown-item" href="#">Conference   [conference.html] </a></li>
+    </ul>    
     Patents      [patents.html]
     Awards		[awards.html]
     Other       [other.html]
